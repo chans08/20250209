@@ -1,0 +1,39 @@
+import 'package:flutter_20250209/app/common/config/r.dart';
+import 'package:flutter_20250209/app/root/data/transfer_info_data.dart';
+import 'package:get/get.dart';
+
+class RootPageController extends GetxController {
+  static RootPageController get to => Get.find();
+
+  final galleryList = [
+    R.image.daesunminhee1,
+    R.image.daesunminhee2,
+    R.image.daesunminhee3,
+    R.image.daesunminhee4,
+    R.image.daesunminhee5,
+    R.image.daesunminhee6,
+    R.image.daesunminhee7,
+    R.image.daesunminhee8,
+    R.image.daesunminhee9,
+    R.image.daesunminhee10,
+    R.image.daesunminhee11,
+    R.image.daesunminhee12,
+    R.image.daesunminhee13,
+    R.image.daesunminhee14,
+    R.image.daesunminhee15,
+  ];
+
+  final daesunTransferData = FamilyTransferInfoData(
+      '신랑 측 마음 전하는 곳',
+      TransferInfoData('김대순', '카카오뱅크', '3333-14-3664702'),
+      TransferInfoData('김종희', '신한은행', '100-022-461414'),
+      TransferInfoData('민연심', '신한은행', '110-034-183346'),
+  );
+
+  final minheeTransferData = FamilyTransferInfoData(
+    '신부 측 마음 전하는 곳',
+    TransferInfoData('차민희', '카카오뱅크', '3333-05-1414209'),
+    TransferInfoData('차성은', '농협', '665-02-064498'),
+    TransferInfoData('이호', '농협', '631011-52-063537'),
+  );
+}

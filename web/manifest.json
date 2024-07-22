@@ -1,0 +1,18 @@
+{
+  "name": "flutter_20250209",
+  "short_name": "flutter_20250209",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#0175C2",
+  "theme_color": "#0175C2",
+  "description": "김대순 차민희 모바일 청첩장 입니다.",
+  "orientation": "portrait-primary",
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "icons/letter.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    }
+  ]
+}
