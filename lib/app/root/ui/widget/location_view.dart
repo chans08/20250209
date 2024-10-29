@@ -81,10 +81,7 @@ class LocationView extends StatelessWidget {
                 ),
                 const SizedBox(height: 4),
                 Text(
-                  '건물 편\n
-                  간선 : 141, 242, 361\nKT강남지사 정류소 하차. 메종드아나하 L층 (지하 1층)\n
-                  건물 맞은편\n
-                  간선 : 141, 242, 361 / 지선 : 6411\nKT강남지사 정류소 하차 후 왼쪽 횡단보도 건너서 도착한 건물\n 메종드아나하 L층 (지하 1층)',
+                  '건물 편\n간선 : 141, 242, 361\nKT강남지사 정류소 하차. 메종드아나하 L층 (지하 1층)\n건물 맞은편\n간선 : 141, 242, 361 / 지선 : 6411\nKT강남지사 정류소 하차 후 왼쪽 횡단보도 건너서 도착한 건물\n 메종드아나하 L층 (지하 1층)',
                   style: textStyleNormal(R.color.color_594E47, 15),
                 ),
               ],
