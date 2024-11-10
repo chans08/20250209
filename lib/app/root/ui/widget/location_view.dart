@@ -61,7 +61,7 @@ class LocationView extends StatelessWidget {
                 ),
                 const SizedBox(height: 4),
                 Text(
-                  '서울특별시 강남구 언주로 517 L층\n메종드아나하(웨딩홀 지하주차장 이용시 2시간 무료주차)',
+                  '서울특별시 강남구 언주로 517 신라스테이 B2~B5 (2시간 무료주차)',
                   style: textStyleNormal(R.color.color_594E47, 15),
                 ),
                 const SizedBox(height: 24),
@@ -71,7 +71,7 @@ class LocationView extends StatelessWidget {
                 ),
                 const SizedBox(height: 4),
                 Text(
-                  '선릉역(2호선, 수인분당선) 6번 출구 방향으로 나와\n셔틀 버스를 타고 도착한 건물\n메종드아나하 L층 (지하 1층)',
+                  '선릉역(2호선, 수인분당선) 6번 출구 방향으로 나와\n셔틀 버스를 타고 도착한 건물\n메종드아나하 L층 (지하 1층)\n* 셔틀 버스는 10분 간격 수시운행',
                   style: textStyleNormal(R.color.color_594E47, 15),
                 ),
                 const SizedBox(height: 24),
@@ -81,7 +81,7 @@ class LocationView extends StatelessWidget {
                 ),
                 const SizedBox(height: 4),
                 Text(
-                  '건물 편\n간선 : 141, 242, 361\nKT강남지사 정류소 하차. \n메종드아나하 L층 (지하 1층)\n\n건물 맞은편\n간선 : 141, 242, 361 / 지선 : 6411\nKT강남지사 정류소 하차 후 왼쪽 횡단보도 건너서 도착한 건물\n 메종드아나하 L층 (지하 1층)',
+                  '건물 편\n간선 : 141, 242, 361\nKT강남지사 정류소 하차. \n메종드아나하 L층 (지하 1층)\n\n건물 맞은편\n간선 : 141, 242, 361 / 지선 : 6411\nKT강남지사 정류소 하차 후 왼쪽 횡단보도 건너서 도착한 건물\n메종드아나하 L층 (지하 1층)',
                   style: textStyleNormal(R.color.color_594E47, 15),
                 ),
               ],
