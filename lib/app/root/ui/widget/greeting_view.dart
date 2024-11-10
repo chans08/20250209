@@ -8,7 +8,7 @@ class GreetingView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      color: R.color.color_ECDCC2,
+      color: R.color.color_C9C2C8,
       child: Column(
         children: [
           Padding(
