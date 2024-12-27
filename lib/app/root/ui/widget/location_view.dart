@@ -44,11 +44,11 @@ class LocationView extends StatelessWidget {
             ),
             const SizedBox(height: 30),
             Text(
-              '25년 2월 9일 일요일 오후 2시',
-              style: textStyleBold(R.color.color_594E47, 17),
+              '메종드아나하 B1 그랜드볼룸홀',
+              style: textStyleBold(R.color.color_594E47, 19),
             ),
             Text(
-              '메종 드 아나하 L층 (지하 1층)',
+              '2025년 2월 9일 일요일 오후 2시',
               style: textStyleBold(R.color.color_594E47, 17),
             ),
             const SizedBox(height: 30),
@@ -56,33 +56,43 @@ class LocationView extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
-                  '자가용',
-                  style: textStyleBold(R.color.color_594E47, 17),
+                  '주차',
+                  style: textStyleGothicBold(R.color.color_594E47, 17),
                 ),
                 const SizedBox(height: 4),
                 Text(
                   '서울특별시 강남구 언주로 517 신라스테이 B2~B5 (2시간 무료주차)',
-                  style: textStyleNormal(R.color.color_594E47, 15),
+                  style: textStyleGothicNormal(R.color.color_594E47, 15),
                 ),
                 const SizedBox(height: 24),
                 Text(
                   '지하철',
-                  style: textStyleBold(R.color.color_594E47, 17),
+                  style: textStyleGothicBold(R.color.color_594E47, 17),
                 ),
                 const SizedBox(height: 4),
                 Text(
-                  '선릉역(2호선, 수인분당선) 6번 출구 방향으로 나와\n셔틀 버스를 타고 도착한 건물\n메종드아나하 L층 (지하 1층)\n* 셔틀 버스는 10분 간격 수시운행',
-                  style: textStyleNormal(R.color.color_594E47, 15),
+                  '2호선 / 수인분당선 선릉역 6번출구에서 도보 10분\n(셔틀 버스 10분 간격 운행)',
+                  style: textStyleGothicNormal(R.color.color_594E47, 15),
                 ),
                 const SizedBox(height: 24),
                 Text(
                   '버스',
-                  style: textStyleBold(R.color.color_594E47, 17),
+                  style: textStyleGothicBold(R.color.color_594E47, 17),
                 ),
                 const SizedBox(height: 4),
                 Text(
-                  '건물 편\n간선 : 141, 242, 361\nKT강남지사 정류소 하차. \n메종드아나하 L층 (지하 1층)\n\n건물 맞은편\n간선 : 141, 242, 361 / 지선 : 6411\nKT강남지사 정류소 하차 후 왼쪽 횡단보도 건너서 도착한 건물\n메종드아나하 L층 (지하 1층)',
-                  style: textStyleNormal(R.color.color_594E47, 15),
+                  '간선 141 , 242 , 361 , 지선 6411\n정류장 : KT강남지사',
+                  style: textStyleGothicNormal(R.color.color_594E47, 15),
+                ),
+                const SizedBox(height: 24),
+                Text(
+                  '셔틀버스',
+                  style: textStyleGothicBold(R.color.color_594E47, 17),
+                ),
+                const SizedBox(height: 4),
+                Text(
+                  '선릉역 6번출구 10분 간격 수시 운행',
+                  style: textStyleGothicNormal(R.color.color_594E47, 15),
                 ),
               ],
             )

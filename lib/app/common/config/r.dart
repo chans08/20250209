@@ -223,3 +223,23 @@ TextStyle textStyleWhiteBold(double size,
         fontWeight: R.fontWeight.bold,
         decoration: TextDecoration.none,
         height: height);
+
+TextStyle textStyleGothicBold(Color color, double size,
+        {double? height, FontFamily? fontFamily = FontFamily.nexonGothicFont}) =>
+    TextStyle(
+        color: color,
+        fontFamily: fontFamily?.text,
+        fontSize: size,
+        fontWeight: R.fontWeight.bold,
+        decoration: TextDecoration.none,
+        height: height);
+
+TextStyle textStyleGothicNormal(Color color, double size,
+        {double? height, FontFamily? fontFamily = FontFamily.nexonGothicFont}) =>
+    TextStyle(
+        color: color,
+        fontFamily: fontFamily?.text,
+        fontSize: size,
+        fontWeight: R.fontWeight.normal,
+        decoration: TextDecoration.none,
+        height: height);

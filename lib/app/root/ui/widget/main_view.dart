@@ -19,15 +19,15 @@ class MainView extends StatelessWidget {
         Padding(
           padding: edgeInsets(top: 50, horizontal: 20),
           child: Text(
-            '김  대  순\n그리고\n차  민  희',
-            style: textStyleBlackNormal(30, height: 30/20),
+            '김 대 순 & 차 민 희',
+            style: textStyleBlackMedium(30, height: 30/20),
             textAlign: TextAlign.center,
           ),
         ),
         Padding(
           padding: edgeInsets(top: 20, horizontal: 20, bottom: 60),
           child: Text(
-            '2025. 02. 09. 일요일 PM 2:00\n메종드 아나하 L층',
+            '2025. 02. 09. 일요일 PM 02:00\n메종드아나하 B1 그랜드볼룸홀',
             textAlign: TextAlign.center,
             style: textStyleBlackNormal(18, height: 25/15),
           ),

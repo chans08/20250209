@@ -27,7 +27,7 @@ Future<T> contactDialog<T>() async {
               child: Column(
                 mainAxisSize: MainAxisSize.min,
                 children: [
-                  R.image.icon_bee.image(),
+                  R.image.icon_pigeon.image(),
                   const SizedBox(height: 5),
                   Text(
                     '혼주에게 연락하기',
@@ -37,7 +37,7 @@ Future<T> contactDialog<T>() async {
                   _buildContactRow('신랑 부', '김종희', '010-9450-8632'),
                   _buildContactRow('신랑 모', '민연심', '010-4200-9845'),
                   _buildContactRow('신부 부', '차성은', '010-5409-9522'),
-                  _buildContactRow('신부 모', '이 호', '010-9400-5635'),
+                  _buildContactRow('신부 모', '이  호', '010-9400-5635'),
                 ],
               ),
             ),

@@ -14,8 +14,8 @@ class ContactView extends StatelessWidget {
       child: Column(
         children: [
           R.image.icon_botanical.image(),
-          _buildSubView('김종희 · 민연심', '  의  장남  ', '김대순', '010-4517-2075'),
-          _buildSubView('차성은 · 이호', '  의  차녀  ', '차민희', '010-9170-3462'),
+          _buildSubView('김종희 · 민연심', '  의  장남  ', '대순', '010-4517-2075'),
+          _buildSubView('차성은 · 이  호', '  의  장녀  ', '민희', '010-9170-3462'),
           const SizedBox(height: 25),
           _buildContactButton(),
         ],

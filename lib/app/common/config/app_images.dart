@@ -50,8 +50,8 @@ class AppImages {
   AppImage get bg_img_white => const AppImage('${_imagePath}bg_img_white.jpg');
   AppImage get map => const AppImage('${_imagePath}map.png');
 
-  AppImage get icon_flower =>
-      const AppImage('${_iconPath}flower.png');
+  AppImage get icon_ribbon =>
+      const AppImage('${_iconPath}ribbon.png');
   AppImage get icon_botanical =>
       const AppImage('${_iconPath}botanical.png');
   AppImage get icon_phone_round =>
@@ -60,8 +60,8 @@ class AppImages {
       const AppImage('${_iconPath}phone.png');
   AppImage get icon_email =>
       const AppImage('${_iconPath}email.png');
-  AppImage get icon_bee =>
-      const AppImage('${_iconPath}bee.png');
+  AppImage get icon_pigeon =>
+      const AppImage('${_iconPath}pigeon.png');
   AppImage get icon_down =>
       const AppImage('${_iconPath}down.png');
   AppImage get icon_up =>
