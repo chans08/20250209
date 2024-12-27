@@ -36,7 +36,7 @@ class RFontWeight {
 
 enum FontFamily {
   defaultFont('defaultFont'),
-  nexonGothicFont('nexonGothicFont'),
+  gothicFont('gothicFont'),
   cormorantGaramondFont('cormorantGaramondFont');
 
   final String text;
@@ -225,7 +225,7 @@ TextStyle textStyleWhiteBold(double size,
         height: height);
 
 TextStyle textStyleGothicBold(Color color, double size,
-        {double? height, FontFamily? fontFamily = FontFamily.nexonGothicFont}) =>
+        {double? height, FontFamily? fontFamily = FontFamily.gothicFont}) =>
     TextStyle(
         color: color,
         fontFamily: fontFamily?.text,
@@ -235,7 +235,7 @@ TextStyle textStyleGothicBold(Color color, double size,
         height: height);
 
 TextStyle textStyleGothicNormal(Color color, double size,
-        {double? height, FontFamily? fontFamily = FontFamily.nexonGothicFont}) =>
+        {double? height, FontFamily? fontFamily = FontFamily.gothicFont}) =>
     TextStyle(
         color: color,
         fontFamily: fontFamily?.text,

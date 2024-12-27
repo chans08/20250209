@@ -41,14 +41,9 @@ flutter:
         - asset: assets/fonts/default_font_bold.otf
           weight: 500
 
-    - family: nexonGothicFont
+    - family: gothicFont
       fonts:
-        - asset: assets/fonts/nexon_gothic_medium.otf
-          weight: 400
-        - asset: assets/fonts/nexon_gothic_bold.otf
-          weight: 600
-        - asset: assets/fonts/nexon_gothic_extra_bold.otf
-          weight: 800
+        - asset: assets/fonts/NotoSansKR-Regular.ttf
     - family: cormorantGaramondFont
       fonts:
         - asset: assets/fonts/CormorantGaramond-Medium.ttf

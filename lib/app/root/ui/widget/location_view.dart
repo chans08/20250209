@@ -61,7 +61,7 @@ class LocationView extends StatelessWidget {
                 ),
                 const SizedBox(height: 4),
                 Text(
-                  '서울특별시 강남구 언주로 517 신라스테이 B2~B5 (2시간 무료주차)',
+                  '서울특별시 강남구 언주로 517 신라스테이 B2~B5\n(2시간 무료주차)',
                   style: textStyleGothicNormal(R.color.color_594E47, 15),
                 ),
                 const SizedBox(height: 24),
@@ -71,7 +71,7 @@ class LocationView extends StatelessWidget {
                 ),
                 const SizedBox(height: 4),
                 Text(
-                  '2호선 / 수인분당선 선릉역 6번출구에서 도보 10분\n(셔틀 버스 10분 간격 운행)',
+                  '2호선 / 수인분당선 선릉역 6번출구에서 도보 10분\n(셔틀버스 10분 간격 운행)',
                   style: textStyleGothicNormal(R.color.color_594E47, 15),
                 ),
                 const SizedBox(height: 24),
