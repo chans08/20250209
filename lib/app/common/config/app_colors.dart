@@ -22,11 +22,11 @@ class AppColors {
   final Color color_F8F9FA = const Color(0xFFF8F9FA);
   final Color color_F9F9FB = const Color(0xFFF9F9FB);
 
-  final Color color_F1F1F1 = const Color(0xFFF1F1F1);
+  final Color color_1E403A = const Color(0xFF1E403A);
   final Color color_F29727 = const Color(0xFFF29727);
   final Color color_ECDCC2 = const Color(0xFFECDCC2);
   final Color color_F26A4B = const Color(0xFFF26A4B);
   final Color color_D93A2B = const Color(0xFFD93A2B);
   final Color color_594E47 = const Color(0xFF594E47);
-  final Color color_C9C2C8 = const Color(0xFFC9C2C8);
+  final Color color_F1F1F1 = const Color(0xFFF1F1F1);
 }

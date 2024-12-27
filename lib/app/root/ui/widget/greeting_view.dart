@@ -8,7 +8,7 @@ class GreetingView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      color: R.color.color_C9C2C8,
+      color: R.color.color_F1F1F1,
       child: Column(
         children: [
           Padding(
@@ -17,7 +17,7 @@ class GreetingView extends StatelessWidget {
           ),
           Text(
             '하얀 눈처럼 순수한 사람을 만나\n드디어 결혼합니다.\n그동안 아껴주신 마음 그대로\n사랑과 존중의 마음을 품고 함께 살겠습니다.\n오셔서 따뜻한 마음으로 축복해 주시면\n평생 잊을 수 없는 따스한 겨울로 남기겠습니다.',
-            style: textStyle300(R.color.color_F1F1F1, 18, height: 40/20),
+            style: textStyle300(R.color.color_1E403A, 17, height: 40/20),
             textAlign: TextAlign.center,
           ),
           const SizedBox(height: 100)
