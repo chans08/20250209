@@ -24,10 +24,10 @@ class RootPageController extends GetxController {
   ];
 
   final daesunTransferData = FamilyTransferInfoData(
-      '신랑 측 마음 전하는 곳',
-      TransferInfoData('김대순', '국민은행', '758602-00-073684'),
-      TransferInfoData('김종희', '농협은행', '1109-02-044588'),
-      TransferInfoData('민연심', '농협은행', '1109-12-090827'),
+    '신랑 측 마음 전하는 곳',
+    TransferInfoData('김대순', '국민은행', '758602-00-073684'),
+    TransferInfoData('김종희', '농협은행', '1109-02-044588'),
+    TransferInfoData('민연심', '농협은행', '1109-12-090827'),
   );
 
   final minheeTransferData = FamilyTransferInfoData(
