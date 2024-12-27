@@ -43,7 +43,7 @@ flutter:
 
     - family: gothicFont
       fonts:
-        - asset: assets/fonts/NotoSansKR-Regular.ttf
+        - asset: assets/fonts/NotoSansKR-Black.ttf
     - family: cormorantGaramondFont
       fonts:
         - asset: assets/fonts/CormorantGaramond-Medium.ttf
