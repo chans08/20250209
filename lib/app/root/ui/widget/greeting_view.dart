@@ -12,7 +12,7 @@ class GreetingView extends StatelessWidget {
       child: Column(
         children: [
           Padding(
-            padding: edgeInsets(horizontal: 70, top: 70, bottom: 50, left: 5, right: 5),
+            padding: edgeInsets(horizontal: 70, top: 70, bottom: 50),
             child: R.image.banner.image(),
           ),
           Text(
