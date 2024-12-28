@@ -53,9 +53,9 @@ class _ToggleViewState extends State<ToggleView> {
         if (isOpen) ...[
           Column(
             children: [
-              if (widget.data.child != null) _buildSubView(widget.data.child, hasSeparator: widget.data.father != null),
-              if (widget.data.father != null) _buildSubView(widget.data.father, hasSeparator: widget.data.mother != null),
-              if (widget.data.mother != null) _buildSubView(widget.data.mother, hasSeparator: false),
+              _buildSubView(widget.data.child),
+              _buildSubView(widget.data.father),
+              _buildSubView(widget.data.mother, hasSeparator: false),
             ],
           ),
         ],

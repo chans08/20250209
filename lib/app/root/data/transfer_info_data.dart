@@ -5,7 +5,6 @@ class FamilyTransferInfoData {
   final TransferInfoData mother;
 
   FamilyTransferInfoData(this.title, this.child, this.father, this.mother);
-  FamilyTransferInfoData(this.title, this.child);
 }
 
 class TransferInfoData {
